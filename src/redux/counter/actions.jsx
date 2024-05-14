@@ -1,15 +1,13 @@
 import { DECREMENT, INCREMENET } from "./actionTypes";
 
-export const increment = (value) => {
-   return {
-      type: INCREMENET,
-      payload: value,
-   };
+export const increment = () => {
+	return {
+		type: INCREMENET,
+	};
 };
 
-export const decrement = (value) => {
-   return {
-      type: DECREMENT,
-      payload: value,
-   };
+export const decrement = () => {
+	return {
+		type: DECREMENT,
+	};
 };
